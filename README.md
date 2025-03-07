@@ -58,28 +58,6 @@ function App() {
 export default App;
 </code>
 
-### `Clients.jsx`
-
-<p>
-This component showcases the companies and brands that trust the services of Jardines Soñados. It includes logos from well-known companies like Google, Amazon, and Shopify.
-</p>
-<code>
-const Clients = () => {
-  return (
-    <div className="bg-gray-100 p-8 flex flex-col items-center justify-center gap-8 mt-20 xl:mt-0">
-      <h1 className="text-2xl font-medium text-gray-800 text-center">
-        Con la confianza de las mejores empresas
-      </h1>
-      <div className="flex flex-col md:flex-row items-center flex-wrap gap-20">
-        <img src="google.png" className="w-40" />
-        <img src="airbnb.png" className="w-40" />
-        <img src="amazon.png" className="w-40" />
-        <img src="shopify.png" className="w-40" />
-      </div>
-    </div>
-  );
-};
-</code>
 
 ### `ContactModal.jsx`
 
